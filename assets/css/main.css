@@ -88,6 +88,8 @@ h6 {
   padding: 15px 0;
   transition: all 0.5s;
   z-index: 997;
+  background: rgb(19,19,89);
+  background: linear-gradient(180deg, rgba(19,19,89,1) 0%, rgba(0,0,0,0) 100%);
 }
 
 .header .logo {
