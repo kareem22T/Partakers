@@ -2212,3 +2212,41 @@ section,
     min-height: 43px !important;
   }
 }
+
+.categories {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.categories >div {
+  height: min-content;
+}
+
+@media (max-width: 767.98px) {
+  .categories {
+    grid-template-columns: 1fr;
+  }
+  .faq-2 .faq-container .faq-item h3 {
+    margin: 0 24px 0 0;
+  }
+}
+
+.categories .faq-item img {
+  width: 30px;
+  height: 30px;
+}
+
+.categories .faq-item h3 {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.categories .faq-item ul {
+  display: none;
+}
+
+.categories .faq-item.faq-active ul {
+  display: block;
+}
